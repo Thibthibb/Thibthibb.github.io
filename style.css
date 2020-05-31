@@ -1,0 +1,13 @@
+body
+{
+  background-color: white;
+  background-attachment: fixed;
+  color: green;
+}
+p
+{
+    color: yellow;
+    background-color: maroon;
+    text-align: justify;
+    opacity: 0.6;
+}
