@@ -1,6 +1,7 @@
 body
 {
   background-color: black;
+  font-family: "Trebuchet MS", arial, verdana, sans-serif;
 }
 .upper_main
 {
@@ -15,28 +16,19 @@ nav
 {
   background-color: rgb(93,64,55);
   color: rgb(191,54,12);
+  font-size: 17px;
+  text-align: justify;
 
   flex: 1;
 }
-.contact_grey
+
+.grey
 {
   background-color: rgb(191,54,12);
   color: rgb(93,64,55);
-}
-.about_me_grey
-{
-  background-color: rgb(191,54,12);
-  color: rgb(93,64,55);
-}
-.hobbies_grey
-{
-  background-color: rgb(191,54,12);
-  color: rgb(93,64,55);
-}
-.links_grey
-{
-  background-color: rgb(191,54,12);
-  color: rgb(93,64,55);
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .center
@@ -45,13 +37,43 @@ nav
   flex: 2;
 }
 
-footer
+.name_me
 {
-  max-width: 1000px;
-  margin: 40px auto 0 auto;
-  line-height: 1.5;
+  font-size: 60px;
+}
+.title_me
+{
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 40px;
+}
 
-  color: black;
-  background-color: white;
-  justify-content: center;
+.title_center
+{
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: rgb(191,54,12);
+}
+#pic
+{
+  display: block;
+  margin: 0 auto;
+  top: 50%;
+}
+
+.nav_info
+{
+  margin: 10px 20px;
+}
+.hobbies_info
+{
+  text-align: center;
+  letter-spacing: 25px;
+  font-size: 30px;
+}
+.links_info
+{
+  text-align: center;
+  word-spacing: 20px;
 }
