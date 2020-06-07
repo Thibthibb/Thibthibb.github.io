@@ -34,6 +34,13 @@ nav
 
 /*========== Nav tags ========================================================*/
 
+#pic
+{
+  padding-top: 20%;
+  display: block;
+  margin: 0 auto;
+}
+
 .grey
 {
   background-color: rgb(191,54,12);
@@ -41,13 +48,6 @@ nav
   text-align: center;
   font-size: 25px;
   font-weight: bold;
-}
-
-#pic
-{
-  padding-top: 20%;
-  display: block;
-  margin: 0 auto;
 }
 
 .nav_info
@@ -126,4 +126,14 @@ i
 {
   padding-right: 40px;
   color: rgb(191,54,12);
+}
+
+/*========== Media Queries ===================================================*/
+
+@media screen and (max-width: 805px)
+{
+  p
+  {
+    color: white;
+  }
 }
