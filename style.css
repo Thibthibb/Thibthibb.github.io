@@ -6,7 +6,7 @@ body
 .upper_main
 {
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: 0 auto 0 auto;
   line-height: 1.5;
   color: rgb(97,97,97);
 
@@ -20,7 +20,7 @@ nav
   font-size: 17px;
   text-align: justify;
 
-  flex: 1;
+  flex: 1.95;
 }
 
 .grey
@@ -35,17 +35,18 @@ nav
 .center
 {
   background-color: rgb(220,220,220);
-  flex: 2;
+  padding: 40px;
+  flex: 3;
 }
-
 .name_me
 {
-  font-size: 60px;
+  font-size: 50px;
 }
 .title_me
 {
   font-style: italic;
   text-decoration: underline;
+  text-decoration-color: rgb(191,54,12);
   font-size: 40px;
 }
 
@@ -58,9 +59,9 @@ nav
 }
 #pic
 {
+  padding-top: 20%;
   display: block;
   margin: 0 auto;
-  top: 50%;
 }
 
 .nav_info
@@ -69,12 +70,41 @@ nav
 }
 .hobbies_info
 {
+  padding-left: 30px;
   text-align: center;
-  letter-spacing: 25px;
   font-size: 30px;
 }
-.links_info
+a
 {
+  text-decoration: none;
   text-align: center;
-  word-spacing: 20px;
+  padding-left: 45px;
+  word-spacing: 15px;
+  color: rgb(191,54,12);
+}
+a:visited
+{
+  text-decoration: none;
+  color: rgb(191,54,12);
+  text-align: center;
+  display: inline-block;
+}
+a:hover
+{
+  text-decoration: none;
+  color: rgb(93,64,55);
+  background-color: rgb(191,54,12);
+}
+i
+{
+  padding-right: 40px;
+  color: rgb(191,54,12);
+}
+.pro_info
+{
+  padding-left: 10px;
+}
+ul
+{
+  list-style-type: square;
 }
