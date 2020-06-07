@@ -1,0 +1,88 @@
+.upper_main
+{
+  display: flex;
+  flex-direction: column-reverse;
+}
+nav
+{
+  padding-top: 0px;
+  background-color: rgb(220,220,220);
+  color: rgb(97,97,97);
+  line-height: 1.5;
+  font-size: 16px;
+
+  padding-left: 40px;
+}
+.center
+{
+  padding-bottom: 0px;
+}
+
+.grey
+{
+  background-color: rgb(220,220,220);
+  color: rgb(97,97,97);
+  text-align: left;
+}
+
+i
+{
+  color: rgb(191,54,12);
+}
+
+.underline_title
+{
+  text-decoration: underline;
+  text-decoration-color: rgb(191,54,12);
+}
+.fas.fa-phone
+{
+  display: inline;
+}
+.fas.fa-male
+{
+  display: inline;
+}
+
+.fas.fa-external-link-alt
+{
+  display: inline;
+}
+
+.hobbies
+{
+  display: none;
+}
+#pic
+{
+  display: none;
+}
+
+.links_p
+{
+  text-decoration: underline;
+  text-decoration-color: rgb(191,54,12);
+}
+
+a
+{
+  padding-left: 30px;
+  text-decoration: none;
+  color: rgb(97,97,97);
+  display: inline;
+}
+
+a:visited
+{
+  text-decoration: none;
+  color: rgb(97,97,97);
+  text-align: center;
+  display: inline;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: rgb(220,220,220);
+  background-color: rgb(97,97,97);
+}

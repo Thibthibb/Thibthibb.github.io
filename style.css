@@ -127,13 +127,34 @@ i
   padding-right: 40px;
   color: rgb(191,54,12);
 }
+.fas.fa-phone
+{
+  display: none;
+}
 
+.fas.fa-male
+{
+  display: none;
+}
+
+.fas.fa-external-link-alt
+{
+  display: none;
+}
 /*========== Media Queries ===================================================*/
 
-@media screen and (max-width: 805px)
+/*@media screen and (max-width: 805px)
 {
-  p
+  .upper_main
   {
-    color: white;
+    display: flex;
   }
-}
+  nav
+  {
+    flex: 1;
+  }
+  .center
+  {
+    flex: 4;
+  }
+}*/
